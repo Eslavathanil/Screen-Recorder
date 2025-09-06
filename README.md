@@ -3,7 +3,6 @@
 A simple and responsive **Screen Recorder Web Application** built using **Vanilla JavaScript, HTML, and CSS**.  
 It allows users to record their screen (with optional microphone audio), preview in real-time, pause/resume, stop recording, and download the final video in **WebM format**.
 
----
 
 ## 🚀 Features
 - 🎥 Record **screen / window / tab**  
@@ -14,20 +13,11 @@ It allows users to record their screen (with optional microphone audio), preview
 - ⏱️ Live **duration timer** and **file size counter**  
 - 📱 **Responsive UI** (desktop + mobile)  
 
----
-
 ## 🛠️ Tech Stack
 - **HTML5** → Structure  
 - **CSS3** → Styling & Responsive Layout  
 - **Vanilla JavaScript (ES6)** → Recording logic using `MediaRecorder API`  
 
----
-
-## 📂 Project Structure
-Screen-Recorder/
-├── index.html # Main HTML file
-├── style.css # Stylesheet
-└── script.js # Recording logic
 ## ▶️ How to Run
 1. Clone the repo:
    ```bash
