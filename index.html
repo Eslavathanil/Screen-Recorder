@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎥 Screen Recorder</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>🎥 Screen Recorder</h1>
+
+  <div class="controls">
+    <button id="startBtn">Start Recording</button>
+    <button id="pauseBtn" disabled>Pause</button>
+    <button id="resumeBtn" disabled>Resume</button>
+    <button id="stopBtn" disabled>Stop</button>
+    <button id="downloadBtn" disabled>Download</button>
+  </div>
+
+  <div class="status">
+    <p><strong>⏱️ Duration:</strong> <span id="timer">00:00</span></p>
+    <p><strong>📦 File Size:</strong> <span id="filesize">0 KB</span></p>
+  </div>
+
+  <video id="preview" autoplay playsinline></video>
+
+  <script src="index.js"></script>
+</body>
+</html>
